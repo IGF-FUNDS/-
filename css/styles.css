@@ -54,10 +54,8 @@ p {
 /* title image */
 .grant-image {
   width: 25%;
-  left:58%;
-
+  left: 58%;
   position: absolute;
-
 }
 
 /* FEATURES */
@@ -125,70 +123,97 @@ h3 {
   padding: 4% 3%;
 }
 
-@media (max-width: 991px){
-.iphone-image {position: static;
-transform: rotate(0);
+@media (max-width: 991px) {
+  .grant-image {
+    position: static;
+    width: 50%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .noteImage {
+    text-align: center;
+    height: 90px;
+  }
+
+  #owo {
+    text-align: center;
+  }
+
+  .amountIcon {
+    width: 2%;
+    padding: 10%;
+    transform: rotate(90deg);
+  }
 }
-#title {
-  text-align: center;
-}
-}
+
+
 /* CTA */
-#cta {
+.contactSum {
   background-color: #ff4c68;
   text-align: center;
   padding: 100px;
-
 }
+
 .cta-h3 {
   color: white;
   font-family: "Montserrat-black";
   line-height: 1.5;
   font-weight: bold;
 }
-.cta-download{
+
+.cta-download {
   margin: 5% 3% 5% 0;
 }
 
 /* footer */
-#footer{
+#footer {
   text-align: center;
 }
-.social-logo{
+
+.social-logo {
   margin: 5% 3% 5% 0;
 }
 
 /* adjust */
-.grant{
+.grant {
   color: #fff;
 }
-.allQuali{
+
+.allQuali {
   background-color: black;
   color: #fff;
 }
-.amountToWinBox{
+
+.amountToWinBox {
   background-color: white;
   color: black;
 }
-.amountHead{
+
+.amountHead {
   color: #fff;
 }
 
-.note{
+.note {
   background-color: black;
   color: #fff;
 }
 
-.amountIcon{
-  width:70%;
+.amountIcon {
+  width: 70%;
 }
-.divide{
+
+.divide {
   background-color: black;
   color: #fff;
 }
-.contNum{
+
+.contNum {
   color: #fff;
 }
-.numb{
+
+.numb {
   color: #fff;
 }
